@@ -1,0 +1,249 @@
+.features-banner {
+    background-color: #4a90e2;
+    color: white;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.features-banner h1 {
+    font-size: 2.5em;
+    margin: 0 0 20px;
+}
+
+.features-banner p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.features-banner .btn {
+    background-color: #ffcc00;
+    color: #333;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.features-banner .btn:hover {
+    background-color: #ffd700;
+}
+
+.features-list {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.features-list h2 {
+    font-size: 2em;
+    margin-bottom: 30px;
+}
+.testimonials {
+    background-color: #f4f7f9;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.testimonials h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.testimonial-card {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+    max-width: 600px;
+}
+
+.testimonial-card p {
+    font-style: italic;
+}
+
+.testimonial-card h4 {
+    margin-top: 15px;
+    font-weight: bold;
+    color: #4a90e2;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #4a90e2;
+    color: white;
+}
+.containers {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: hsl(216, 19%, 16%);
+    height: 30px;
+    width: 1470px;
+    margin-top: 0px;
+  }
+  
+  .nav-links {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  .btn {
+    background-color: #00c8c8;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  body {
+    font-family: 'Outfit', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.header {
+    background-color: #4a90e2;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header .logo img {
+    width: 150px;
+}
+
+.navbar {
+    display: flex;
+}
+
+.navbar-list {
+    list-style: none;
+    display: flex;
+}
+
+.navbar-links {
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    transition: background 0.3s;
+}
+
+.navbar-links:hover {
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 5px;
+}
+
+.feature-detail-banner {
+    background: linear-gradient(to right, #4a90e2, #50e3c2);
+    color: white;
+    padding: 60px 20px;
+    text-align: center;
+    border-bottom: 5px solid #e2e2e2;
+}
+
+.feature-detail-banner h1 {
+    font-size: 2.5rem;
+    margin: 0 0 20px;
+}
+
+.feature-detail-banner p {
+    font-size: 1.2rem;
+    margin: 0;
+}
+
+.feature-detail-list {
+    padding: 40px 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.feature-detail-card {
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+    text-align: center;
+}
+
+.feature-detail-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.2);
+}
+
+.feature-detail-card h2 {
+    margin-bottom: 15px;
+    font-size: 1.8rem;
+    color: #333;
+}
+
+.feature-detail-card p {
+    font-size: 1rem;
+    color: #666;
+}
+
+.feature-detail-card img {
+    width: 100%;
+    border-radius: 10px;
+    margin-top: 15px;
+    transition: transform 0.3s;
+}
+
+.feature-detail-card img:hover {
+    transform: scale(1.05);
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #4a90e2;
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    margin: 0;
+}
+.containers {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: hsl(216, 19%, 16%);
+    height: 30px;
+    width: 1470px;
+    margin-top: 0px;
+  }
+  
+  .nav-links {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  .btn {
+    background-color: #00c8c8;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+  }

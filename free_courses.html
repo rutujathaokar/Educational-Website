@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Free Courses | Webook</title>
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="app/images/logo/Favicon.svg" type="image/x-icon">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;800&display=swap" rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="free_courses.css">
+
+    <!-- Icons -->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</head>
+
+<body>
+    <div class="containers">
+        <div class="nav-links">
+          <a href="index.html">Home</a>
+          <a href="features.html">Features</a>
+          <a href="about.html">About</a>
+          <a href="login.html">Login/Signup</a>
+        </div>
+        <button class="btn"><a href="courses.html" style="text-decoration: none; color:white">Get Courses</a></button>
+      </div>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="hero-content">
+                <h1>Explore Our Free Courses</h1>
+                <p>Enhance your skills and knowledge with our selection of free online courses.</p>
+            </div>
+        </section>
+
+        <!-- Featured Free Courses -->
+        <section class="featured-courses">
+            <h2>Featured Free Courses</h2>
+            <div class="course-list">
+                <div class="course-item">
+                    <h3>Introduction to Python</h3>
+                    <p>Learn the basics of Python programming with this comprehensive course.</p>
+                    <a href="free_enroll.html" class="btn">Enroll Now</a>
+                </div>
+                <div class="course-item">
+                    <h3>Digital Marketing Basics</h3>
+                    <p>Get started with digital marketing and learn the key strategies for success.</p>
+                    <a href="free_enroll.html" class="btn">Enroll Now</a>
+                </div>
+                <div class="course-item">
+                    <h3>Graphic Design Essentials</h3>
+                    <p>Discover the fundamentals of graphic design and unleash your creativity.</p>
+                    <a href="free_enroll.html" class="btn">Enroll Now</a>
+                </div>
+                <div class="course-item">
+                    <h3>Web Development 101</h3>
+                    <p>Build your first website using HTML, CSS, and JavaScript.</p>
+                    <a href="free_enroll.html" class="btn">Enroll Now</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Testimonials Section -->
+        <section class="student-testimonials">
+            <h2>What Our Students Say</h2>
+            <div class="testimonial-container">
+                <div class="testimonial-card">
+                    <p>"This course transformed my career! The instructors were top-notch and incredibly supportive."</p>
+                    <h3>Jane Doe</h3>
+                    <h4>Marketing Specialist</h4>
+                </div>
+                <div class="testimonial-card">
+                    <p>"I gained so much knowledge from these courses. Highly recommended for anyone looking to upskill."</p>
+                    <h3>John Smith</h3>
+                    <h4>Data Analyst</h4>
+                </div>
+                <div class="testimonial-card">
+                    <p>"The resources provided were invaluable. I loved the interactive learning modules!"</p>
+                    <h3>Emily Johnson</h3>
+                    <h4>Software Engineer</h4>
+                </div>
+            </div>
+        </section>
+
+        <!-- Course Registration Form -->
+        <section class="registration-form">
+            <h2>Registration For Courses</h2>
+            <form>
+                <label for="name">Full Name</label>
+                <input type="text" id="name" placeholder="Enter your name" required>
+
+                <label for="email">Email Address</label>
+                <input type="email" id="email" placeholder="Enter your email" required>
+
+                <label for="password">Password</label>
+                <input type="password" id="password" placeholder="Create a password" required>
+
+                <label for="course">Select a Course</label>
+                <select id="course" required>
+                    <option value="" disabled selected>Select a course</option>
+                    <option value="course1">Python</option>
+                    <option value="course2">MongoDB</option>
+                    <option value="course3">Java</option>
+                    <option value="course4">C++</option>
+                    <option value="course5">React</option>
+                    <option value="course6">Node.js</option>
+                </select>
+
+                <button type="submit" class="btn">Submit</button>
+            </form>
+        </section>
+
+        <!-- Resources Section -->
+          
+        <section class="resources">
+           
+            <h2>Additional Resources</h2>
+            <p id="p">Explore our library of eBooks, articles, and webinars to supplement your learning.</p>
+            <div class="resource-list">
+               
+                <div class="resource-item">
+                    <h3>eBooks</h3>
+                    <p>Download our free eBooks covering a variety of topics.</p>
+                    <a href="ebooks.html" class="btn">View eBooks</a>
+                </div>
+                <div class="resource-item">
+                    <h3>Webinars</h3>
+                    <p>Join our upcoming webinars hosted by industry experts.</p>
+                    <a href="webinar.html" class="btn">Join Webinars</a>
+                </div>
+                <div class="resource-item">
+                    <h3>Articles</h3>
+                    <p>Read insightful articles written by professionals.</p>
+                    <a href="articles.html" class="btn">Read Articles</a>
+                </div>
+                 
+            </div>
+        </section>
+   
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Webook. All rights reserved.</p>
+    </footer>
+
+     
+</body>
+</html>

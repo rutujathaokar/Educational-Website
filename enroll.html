@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enroll in Class | Webook</title>
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="app/images/logo/Favicon.svg" type="image/x-icon">
+
+    <!-- Fonts link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;800&display=swap" rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="enroll.css">
+
+    <!-- Icons -->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</head>
+
+<body> 
+    <div class="containers">
+        <div class="nav-links">
+          <a href="index.html">Home</a>
+          <a href="features.html">Features</a>
+          <a href="about.html">About</a>
+          <a href="login.html">Login/Signup</a>
+        </div>
+        <button class="btn"><a href="courses.html" style="text-decoration: none; color:white">Get Courses</a></button>
+      </div> 
+    <h1>Introductory Video</h1>
+<center>
+    <video width="1000px" height="600px" controls>
+        <source src="assets/invideo-ai-1080 Welcome to Our Web Development Course! 2024-10-28.mp4" type="video/mp4">
+    </video> 
+</center>
+ 
+    <main>
+        <section class="enroll-section">
+            <div class="container">
+                <h1>Enroll in Class</h1>
+                <div class="class-details">
+                    <h2>Course Title :</h2> <input type="text" placeholder="Course Title" class="title">
+                    <!-- <p><strong>Date:</strong> November 10, 2024</p> -->
+                    <p><strong>Time:</strong> 5:00 PM - 7:00 PM (UTC)</p>
+                    <p><strong>Description:</strong> This class will cover all the elements which comes under the topic.</p>
+                </div>
+                <div class="enrollment-form">
+                    <h3>Join the Class</h3>
+                    <form>
+                        <label for="name">Full Name:</label>
+                        <input type="text" id="name" name="name" required>
+
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required>
+
+                        <label for="phone">Phone Number:</label>
+                        <input type="tel" id="phone" name="phone" required>
+
+                        <h1>Select Payment Method</h1>
+    <form id="payment-form">
+        <div class="payment-option">
+            <label>
+                <input type="radio" class="payment" name="payment-option" value="credit-card" checked>
+                <p class="credit">Credit Card</p>
+            </label>
+        </div>
+        <div class="payment-option">
+            <label>
+                <input type="radio" name="payment-option" value="paypal">
+                <p class="paypal">PayPal</p>
+            </label>
+        </div>
+    
+        <div id="card-element"></div>
+        <div id="card-errors" role="alert"></div>
+    
+        <button type="submit" class="btn">Pay</button>
+    </form>
+
+    
+
+
+                </div>
+                <div class="lecture-materials">
+                    <h3>Lecture Materials</h3>
+                    <ul>
+                        <li><a href="#">Week 1: HTML Basics</a></li>
+                        <li><a href="#">Week 2: CSS Styling</a></li>
+                        <li><a href="#">Week 3: JavaScript Introduction</a></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Webook. All rights reserved.</p>
+        </div>
+    </footer>
+    <script src="https://js.stripe.com/v3/"></script>
+
+    <script src="enroll.js"></script>
+</body>
+</html>

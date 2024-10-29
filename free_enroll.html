@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enroll in Course | Webook</title>
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="app/images/logo/Favicon.svg" type="image/x-icon">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;800&display=swap" rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="free_enroll.css">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1>Enroll in Your Course</h1>
+            <p>Select a course to start your learning journey.</p>
+        </header>
+
+        <section class="course-details">
+            <h2>Course Title: </h2> <input type="text" placeholder="Course Title">
+        </section>
+
+        <section class="enrollment-form">
+            <h2>Enrollment Form</h2>
+            <form>
+                <label for="name">Full Name</label>
+                <input type="text" id="name" placeholder="Enter your name" required>
+
+                <label for="email">Email Address</label>
+                <input type="email" id="email" placeholder="Enter your email" required>
+
+                <label for="course">Select a Course</label>
+                <select id="course" required>
+                    <option value="" disabled selected>Select a course</option>
+                    <option value="python">Introduction to Python</option>
+                    <option value="digital-marketing">Digital Marketing Basics</option>
+                    <option value="graphic-design">Graphic Design Essentials</option>
+                    <option value="web-development">Web Development 101</option>
+                </select>
+
+                <button type="submit" class="btn">Enroll Now</button>
+            </form>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Webook. All rights reserved.</p>
+    </footer>
+</body>
+</html>
